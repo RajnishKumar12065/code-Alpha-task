@@ -1,0 +1,93 @@
+
+!<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>2D Floor Plan — Residential House</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>2D Floor Plan — Residential House</h1>
+  <p class="small">Minimum: 2 Bedrooms, Kitchen, Living Room, Bathroom — created using HTML & CSS.</p>
+
+  <div class="wrap">
+    <div class="plan-wrap">
+      <div class="plan">
+
+        <!-- Living Room -->
+        <div class="room living">
+          <div>
+            <span class="title">Living Room</span>
+            <span class="size">4400 × 2600 mm</span>
+          </div>
+        </div>
+
+        <!-- Kitchen -->
+        <div class="room kitchen">
+          <div class="counter">Kitchen Counter</div>
+          <div class="label">
+            <span class="title">Kitchen</span><br>
+            <span class="size">2920 × 1700 mm</span>
+          </div>
+        </div>
+
+        <!-- Corridor -->
+        <div class="room corridor">
+          <div>
+            <span class="title">Corridor</span>
+            <span class="size">1400 × 2600 mm</span>
+          </div>
+        </div>
+
+        <!-- Bedroom 1 -->
+        <div class="room b1">
+          <div>
+            <span class="title">Bedroom 1</span>
+            <span class="size">3000 × 2320 mm</span>
+            <div class="bed"></div>
+          </div>
+        </div>
+
+        <!-- Bedroom 2 -->
+        <div class="room b2">
+          <div>
+            <span class="title">Bedroom 2</span>
+            <span class="size">2320 × 2320 mm</span>
+            <div class="bed"></div>
+          </div>
+        </div>
+
+        <!-- Bathroom -->
+        <div class="room bath">
+          <div>
+            <span class="title">Bathroom</span>
+            <span class="size">1920 × 1200 mm</span>
+          </div>
+        </div>
+
+        <!-- Doors (simple markers) -->
+        <div class="door door-living"></div>
+        <div class="door door-kitchen"></div>
+        <div class="door door-b1"></div>
+        <div class="door door-b2"></div>
+        <div class="door door-bath"></div>
+
+        <!-- Dimensions -->
+        <div class="dim dim-w">8000 mm</div>
+        <div class="dim dim-h">5600 mm</div>
+
+      </div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-box">
+        <strong>Legend & Notes</strong>
+        <div class="item"><span class="swatch floor"></span> Room floor / area</div>
+        <div class="item"><span class="swatch wall"></span> Wall</div>
+        <div class="item"><span class="swatch counter"></span> Kitchen counter</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
